@@ -32,9 +32,45 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="write post ..."/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="send Post"
         android:onClick="postTest"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send Picture"
+        android:onClick="postPicture"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send Picture from URL"
+        android:onClick="postPictureURL"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gallery"
+        android:onClick="galleryIntent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post Gallery Picture"
+        android:onClick="postGalleryPicture"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post Gallery Picture Not Scaled"
+        android:onClick="postGalleryPictureNotScaled"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>
